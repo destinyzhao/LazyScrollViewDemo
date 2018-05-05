@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56F4E1B0B2FBA9E199BF280 /* Pods_LazyScrollViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E8D47C1B447CF6B00E0E2A /* Pods_LazyScrollViewDemo.framework */; };
+		DE8C8F72209D901A00CC3756 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F71209D901A00CC3756 /* AppDelegate.m */; };
+		DE8C8F75209D901A00CC3756 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F74209D901A00CC3756 /* ViewController.m */; };
+		DE8C8F78209D901A00CC3756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F76209D901A00CC3756 /* Main.storyboard */; };
+		DE8C8F7A209D901B00CC3756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F79209D901B00CC3756 /* Assets.xcassets */; };
+		DE8C8F7D209D901B00CC3756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F7B209D901B00CC3756 /* LaunchScreen.storyboard */; };
+		DE8C8F80209D901B00CC3756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F7F209D901B00CC3756 /* main.m */; };
+		DE8C8F89209D96C600CC3756 /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F88209D96C600CC3756 /* View1.m */; };
+		DE8C8F8B209D96CE00CC3756 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F8A209D96CE00CC3756 /* View1.xib */; };
+		DE8C8F8E209D96DB00CC3756 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F8D209D96DB00CC3756 /* View2.m */; };
+		DE8C8F90209D96E500CC3756 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F8F209D96E500CC3756 /* View2.xib */; };
+		DE8C8F93209D96F700CC3756 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F92209D96F700CC3756 /* View3.m */; };
+		DE8C8F95209D970000CC3756 /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F94209D970000CC3756 /* View3.xib */; };
+		DE8C8F98209D985F00CC3756 /* View4.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C8F97209D985F00CC3756 /* View4.m */; };
+		DE8C8F9A209D986800CC3756 /* View4.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8C8F99209D986800CC3756 /* View4.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31E8D47C1B447CF6B00E0E2A /* Pods_LazyScrollViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazyScrollViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C512483D5FCB916407D4DB0 /* Pods-LazyScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazyScrollViewDemo/Pods-LazyScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		94A38002F578DD090AB17598 /* Pods-LazyScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazyScrollViewDemo/Pods-LazyScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8C8F6D209D901A00CC3756 /* LazyScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C8F70209D901A00CC3756 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8C8F71209D901A00CC3756 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8C8F73209D901A00CC3756 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE8C8F74209D901A00CC3756 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE8C8F77209D901A00CC3756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8C8F79209D901B00CC3756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8C8F7C209D901B00CC3756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8C8F7E209D901B00CC3756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C8F7F209D901B00CC3756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8C8F87209D96C600CC3756 /* View1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
+		DE8C8F88209D96C600CC3756 /* View1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
+		DE8C8F8A209D96CE00CC3756 /* View1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		DE8C8F8C209D96DB00CC3756 /* View2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
+		DE8C8F8D209D96DB00CC3756 /* View2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
+		DE8C8F8F209D96E500CC3756 /* View2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
+		DE8C8F91209D96F700CC3756 /* View3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		DE8C8F92209D96F700CC3756 /* View3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+		DE8C8F94209D970000CC3756 /* View3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+		DE8C8F96209D985F00CC3756 /* View4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View4.h; sourceTree = "<group>"; };
+		DE8C8F97209D985F00CC3756 /* View4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View4.m; sourceTree = "<group>"; };
+		DE8C8F99209D986800CC3756 /* View4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View4.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8C8F6A209D901A00CC3756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56F4E1B0B2FBA9E199BF280 /* Pods_LazyScrollViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED559D64F18D6F364982A59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A38002F578DD090AB17598 /* Pods-LazyScrollViewDemo.debug.xcconfig */,
+				4C512483D5FCB916407D4DB0 /* Pods-LazyScrollViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF50571EE5BDF1B4009948E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E8D47C1B447CF6B00E0E2A /* Pods_LazyScrollViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8C8F64209D901A00CC3756 = {
+			isa = PBXGroup;
+			children = (
+				DE8C8F6F209D901A00CC3756 /* LazyScrollViewDemo */,
+				DE8C8F6E209D901A00CC3756 /* Products */,
+				8ED559D64F18D6F364982A59 /* Pods */,
+				BF50571EE5BDF1B4009948E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8C8F6E209D901A00CC3756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C8F6D209D901A00CC3756 /* LazyScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8C8F6F209D901A00CC3756 /* LazyScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C8F86209D969200CC3756 /* Views */,
+				DE8C8F70209D901A00CC3756 /* AppDelegate.h */,
+				DE8C8F71209D901A00CC3756 /* AppDelegate.m */,
+				DE8C8F73209D901A00CC3756 /* ViewController.h */,
+				DE8C8F74209D901A00CC3756 /* ViewController.m */,
+				DE8C8F76209D901A00CC3756 /* Main.storyboard */,
+				DE8C8F79209D901B00CC3756 /* Assets.xcassets */,
+				DE8C8F7B209D901B00CC3756 /* LaunchScreen.storyboard */,
+				DE8C8F7E209D901B00CC3756 /* Info.plist */,
+				DE8C8F7F209D901B00CC3756 /* main.m */,
+			);
+			path = LazyScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		DE8C8F86209D969200CC3756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C8F87209D96C600CC3756 /* View1.h */,
+				DE8C8F88209D96C600CC3756 /* View1.m */,
+				DE8C8F8A209D96CE00CC3756 /* View1.xib */,
+				DE8C8F8C209D96DB00CC3756 /* View2.h */,
+				DE8C8F8D209D96DB00CC3756 /* View2.m */,
+				DE8C8F8F209D96E500CC3756 /* View2.xib */,
+				DE8C8F91209D96F700CC3756 /* View3.h */,
+				DE8C8F92209D96F700CC3756 /* View3.m */,
+				DE8C8F94209D970000CC3756 /* View3.xib */,
+				DE8C8F96209D985F00CC3756 /* View4.h */,
+				DE8C8F97209D985F00CC3756 /* View4.m */,
+				DE8C8F99209D986800CC3756 /* View4.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8C8F6C209D901A00CC3756 /* LazyScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C8F83209D901B00CC3756 /* Build configuration list for PBXNativeTarget "LazyScrollViewDemo" */;
+			buildPhases = (
+				F7DD7DA00DBD1F6B26E7F205 /* [CP] Check Pods Manifest.lock */,
+				DE8C8F69209D901A00CC3756 /* Sources */,
+				DE8C8F6A209D901A00CC3756 /* Frameworks */,
+				DE8C8F6B209D901A00CC3756 /* Resources */,
+				931E60B2D68BFBEE9EAAA28B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyScrollViewDemo;
+			productName = LazyScrollViewDemo;
+			productReference = DE8C8F6D209D901A00CC3756 /* LazyScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8C8F65209D901A00CC3756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Destiny;
+				TargetAttributes = {
+					DE8C8F6C209D901A00CC3756 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = DE8C8F68209D901A00CC3756 /* Build configuration list for PBXProject "LazyScrollViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8C8F64209D901A00CC3756;
+			productRefGroup = DE8C8F6E209D901A00CC3756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8C8F6C209D901A00CC3756 /* LazyScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8C8F6B209D901A00CC3756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C8F7D209D901B00CC3756 /* LaunchScreen.storyboard in Resources */,
+				DE8C8F7A209D901B00CC3756 /* Assets.xcassets in Resources */,
+				DE8C8F9A209D986800CC3756 /* View4.xib in Resources */,
+				DE8C8F95209D970000CC3756 /* View3.xib in Resources */,
+				DE8C8F8B209D96CE00CC3756 /* View1.xib in Resources */,
+				DE8C8F90209D96E500CC3756 /* View2.xib in Resources */,
+				DE8C8F78209D901A00CC3756 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		931E60B2D68BFBEE9EAAA28B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LazyScrollViewDemo/Pods-LazyScrollViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LazyScroll/LazyScroll.framework",
+				"${BUILT_PRODUCTS_DIR}/TMUtils/TMUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LazyScroll.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazyScrollViewDemo/Pods-LazyScrollViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DD7DA00DBD1F6B26E7F205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LazyScrollViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8C8F69209D901A00CC3756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C8F93209D96F700CC3756 /* View3.m in Sources */,
+				DE8C8F75209D901A00CC3756 /* ViewController.m in Sources */,
+				DE8C8F80209D901B00CC3756 /* main.m in Sources */,
+				DE8C8F8E209D96DB00CC3756 /* View2.m in Sources */,
+				DE8C8F89209D96C600CC3756 /* View1.m in Sources */,
+				DE8C8F72209D901A00CC3756 /* AppDelegate.m in Sources */,
+				DE8C8F98209D985F00CC3756 /* View4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8C8F76209D901A00CC3756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8C8F77209D901A00CC3756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8C8F7B209D901B00CC3756 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8C8F7C209D901B00CC3756 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8C8F81209D901B00CC3756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8C8F82209D901B00CC3756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8C8F84209D901B00CC3756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A38002F578DD090AB17598 /* Pods-LazyScrollViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazyScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.LazyScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8C8F85209D901B00CC3756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C512483D5FCB916407D4DB0 /* Pods-LazyScrollViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazyScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Destiny.LazyScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8C8F68209D901A00CC3756 /* Build configuration list for PBXProject "LazyScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C8F81209D901B00CC3756 /* Debug */,
+				DE8C8F82209D901B00CC3756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8C8F83209D901B00CC3756 /* Build configuration list for PBXNativeTarget "LazyScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C8F84209D901B00CC3756 /* Debug */,
+				DE8C8F85209D901B00CC3756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8C8F65209D901A00CC3756 /* Project object */;
+}

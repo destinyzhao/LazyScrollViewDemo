@@ -1,0 +1,6 @@
+framework module Pods_LazyScrollViewDemo {
+  umbrella header "Pods-LazyScrollViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

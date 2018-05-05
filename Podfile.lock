@@ -1,0 +1,20 @@
+PODS:
+  - LazyScroll (1.0.1):
+    - TMUtils (~> 1.0.1)
+  - TMUtils (1.0.1)
+
+DEPENDENCIES:
+  - LazyScroll
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LazyScroll
+    - TMUtils
+
+SPEC CHECKSUMS:
+  LazyScroll: 23f4550711452ad4306a30fc75106a7a5556a882
+  TMUtils: 8af8e4695b6e4086d0545ecd7cd025556515ab42
+
+PODFILE CHECKSUM: a8e9c6d2200fc227dedbfb350e942997ebcb43a7
+
+COCOAPODS: 1.5.0
